@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Databases
+*.sqlite3
+history.db
+
+# Large Datasets
+*.csv
+Fake.csv
+True.csv
+
+# Note: Model files (*.pkl) are often kept in git if they are small enough, 
+# but GitHub has a 100MB file limit. Since our .pkl files are small, we can upload them.
+# If they ever get too big, you should add *.pkl to this list!
